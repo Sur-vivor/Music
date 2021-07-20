@@ -121,6 +121,10 @@ bot.send(
                 description="Unmute in VC"
             ),
             types.BotCommand(
+                command="song",
+                description="Download a song"
+            ),
+            types.BotCommand(
                 command="restart",
                 description="Restart the bot"
             )
