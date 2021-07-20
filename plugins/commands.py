@@ -63,6 +63,7 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 **/mute**  Mute in VC.
 **/unmute**  Unmute in VC.
 **/restart** Restarts the Bot.
+**/song** Download a Song
 """
 
 
@@ -75,8 +76,8 @@ async def start(client, message):
         InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
     ],
     [
-        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/Surv_ivor'),
+        InlineKeyboardButton('🧩 Source', url='https://github.com/Sur-vivor/VCMusicBot'),
     ],
     [
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -98,8 +99,8 @@ async def show_help(client, message):
             InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
         ],
         [
-            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/Surv_ivor'),
+            InlineKeyboardButton('🧩 Source', url='https://github.com/Sur-vivor/VCMusicBot'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
